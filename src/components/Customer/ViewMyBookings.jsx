@@ -57,7 +57,7 @@ const ViewBookings = () => {
               <td className="px-6 py-4 whitespace-nowrap">{booking.totaldays}</td>
               <td className="px-6 py-4 whitespace-nowrap">{booking.status}</td>
               <td className="px-6 py-4 whitespace-nowrap">
-                {booking.status === 'booked' ? (
+                {booking.status === 'Booked' ? (
                   <button onClick={() => handleCancelBooking(booking._id)} className="bg-red-500 text-white px-4 py-2 rounded">
                     Cancel Booking
                   </button>
